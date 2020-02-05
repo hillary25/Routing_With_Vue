@@ -1,0 +1,19 @@
+body {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+}
+
+a {
+    text-transform: none;
+    color: white;
+}

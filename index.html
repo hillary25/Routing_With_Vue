@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <title>Routing With Vue</title>
+</head>
+<body>
+    <!-- Shortcut to write this is main#app -->
+    <main id="app">
+        <router-link to="/">Go to Login</router-link>
+        <router-link to="/app">Go to Home Page</router-link>
+
+        <!-- This is like {{{ body }}} in handlebars -->
+        <!-- It is a container for dynamic content -->
+        <router-view></router-view>
+    </main> 
+
+    <script src="js/main.js" type="module"></script>
+    
+</body>
+</html>
